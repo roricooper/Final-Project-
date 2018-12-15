@@ -1,0 +1,79 @@
+<div id="tree">
+    <h2>Does the data have a known deterministic relationship?</h2>
+    <ul>
+      <li>
+        <h3>No</h3>
+        <p class="text hidden">Is goal to infer information from incomplete data or describe data with summary statistics?</p>
+        <ul>
+          <li>
+            <h4>No</h4>
+          </li>
+            <p class="text hidden">Is the goal to use data to obtain model for prediction?</p>
+            <ul>
+              <li>No
+                <p class="text hidden">Machine Learning Models are probably not the best option for you this time around. Go back and use your human brain power.</p>
+              <li>Yes
+                <p class="text hidden">Do you know the variable that is the output, i.e., dependent variable, response, or target?</p>
+                <ul>
+                    <li>Yes
+                    <p class="text hidden">Is the output well defined and exist in the data?</p>
+                    </li>
+                    <ul>
+                    <li>No
+                      <p class="text hidden">Use Reinforced Learning ---> Try Neural Networks</p>
+                      </li>
+                    <li>Yes
+                      <p class="text hidden">Use Supervised Learning ---> Is your target variable continuous quantitative?</p>
+                      <ul>
+                      <li>Yes</li>
+                      <p>Use Regression ---> Try Linear </p>
+                      <li>No</li>
+                      <p>Use Classification ---> Try Decision Tree, Random Forest, SVM, or K-NN
+                      </ul>
+                    </li>
+                    </ul>
+
+                    <li>No
+                    <p class="text hidden">Use Unsupervised Learning ---> Are you interested in finding clusters of your data?</p>
+                    </li>
+                    <ul>
+                    <li>Yes
+
+                    <p>Use K-Means</p>
+                    </li>
+                    <li>No
+                    <p>The possibilities are endless! So much so that we ran out of time to find suggestions for you! Please check out our recommended resources for more information.</p>
+                    </li>
+                      </ul>
+                    </li><li>No
+                          <p class="text hidden">Use Unsupervised Learning ---> Are you interested in finding clusters of your data?</p>
+                          </li>
+                          <ul>
+                          <li>Yes
+
+                          <p>Use K-Means</p>
+                          </li>
+                          <li>No
+                          <p>The possibilities are endless! So much so that we ran out of time to find suggestions for you! Please check out our recommended resources for more information.</p>
+                          </li>
+                            </ul>
+                    </li>
+                    </ul>
+                </ul>
+              </li>
+              </ul><span class="back hidden">Back</span>
+          </li>
+          <li>
+            <h4>Yes</h4>
+            <p class="text hidden"> Use Statistics Modeling</p>
+          </li><span class="back hidden">Back</span>
+        </ul>
+      </li>
+    </ul>
+      <li>
+        <h3>Yes</h3>
+        <p class="text hidden">Use Pure Math Model</p>
+
+      </li><span class="back hidden">Back to Start</span>
+    </ul>
+  </div>
